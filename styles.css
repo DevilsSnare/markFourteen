@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+:root {
+  --main-color: #3b3b3b;
+  --sub-color: #272727;
+  --subsub-color: #ecf0f1;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: var(--sub-color);
+  text-transform: uppercase;
+  color: white;
+  background-color: var(--sub-color);
+}
+nav {
+  display: block;
+  margin: 1rem auto 2rem;
+  padding: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 2.2rem;
+  /* font-weight: bold; */
+  /* background-color: var(--main-color); */
+}
+.main {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 500px;
+}
+.main-block {
+  display: block;
+  margin: 1rem 1.5rem;
+  padding: 1rem 0rem 1.5rem;
+  background-color: var(--main-color);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px black;
+}
+.name {
+  display: block;
+  margin: auto;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+.input-box {
+  display: block;
+  margin: auto;
+  padding: 0.2rem 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  border: 2px solid black;
+  outline: none;
+  background-color: var(--subsub-color);
+}
+.calculate {
+  display: block;
+  margin: 2rem auto;
+  padding: 0.2rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: 2px solid black;
+  background-color: var(--main-color);
+  border-radius: 6px;
+  color: white;
+}
+.calculate:hover {
+  background-color: var(--subsub-color);
+  color: black;
+}
+.result {
+  display: block;
+  margin: auto;
+  padding: 0.5rem 0.5rem 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
